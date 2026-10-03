@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Next.js
+.next/
+out/
+dist/
+
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# Pruebas y registros
+coverage/
+*.log
+npm-debug.log*
+
+# Archivos generados
+storage/receipts/
+tsconfig.tsbuildinfo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+generated/
